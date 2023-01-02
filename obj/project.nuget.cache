@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6wDtTOpmFCJmBMQhkRkxUzdP1tohxxn5hDXpJDmcZjwZltug6losbQIg1rS80Jn0FYYKeltooIzjLDuQiX8mPw==",
+  "dgSpecHash": "ZHuJY2yp6hvUItGw0h3owij4HdZuSEG/PuvdMJgc80iqSbqwsDyjEnpB+AMvRv7RWVP7xBAoQJqhlHQZOsD5SA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kayqu\\Documents\\Projetos\\workbench\\workbench.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kayqu\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
+    "C:\\Users\\kayqu\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+  ],
   "logs": []
 }
