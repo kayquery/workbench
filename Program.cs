@@ -1,4 +1,5 @@
 ﻿using System.CommandLine;
+using System.Reflection;
 using workbench.Commands.FakeCommand;
 
 namespace Workbench
@@ -29,11 +30,18 @@ namespace Workbench
         {
             rootCommand.SetHandler( () =>
             {
-                Console.ForegroundColor = ConsoleColor.DarkYellow;
-                Console.WriteLine("Welcome to Workbench Cli");
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                Console.WriteLine(" __    __           _    _                     _     ");
+                Console.WriteLine("/ / /\\ \\ \\___  _ __| | _| |__   ___ _ __   ___| |__  ");
+                Console.WriteLine("\\ \\/  \\/ / _ \\| '__| |/ / '_ \\ / _ \\ '_ \\ / __| '_ \\ ");
+                Console.WriteLine(" \\  /\\  / (_) | |  |   <| |_) |  __/ | | | (__| | | |");
+                Console.WriteLine("  \\/  \\/ \\___/|_|  |_|\\_\\_.__/ \\___|_| |_|\\___|_| |_|");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
 
+                Console.WriteLine("\n\nWorkbanch Tool - version 1.0.0");
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("\nTo get HELP to start, use '-h', '-?' or '--help'");
+
+                rootCommand.
             });
         }
     }
