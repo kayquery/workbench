@@ -29,3 +29,8 @@ C:\Users\kayqu\Documents\Projetos\workbench\bin\Debug\net6.0\zh-Hans\System.Comm
 C:\Users\kayqu\Documents\Projetos\workbench\bin\Debug\net6.0\zh-Hant\System.CommandLine.resources.dll
 C:\Users\kayqu\Documents\Projetos\workbench\obj\Debug\net6.0\workbench.csproj.CopyComplete
 C:\Users\kayqu\Documents\Projetos\workbench\bin\Debug\net6.0\Bogus.dll
+C:\Users\kayqu\Documents\Projetos\workbench\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kayqu\Documents\Projetos\workbench\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kayqu\Documents\Projetos\workbench\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kayqu\Documents\Projetos\workbench\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kayqu\Documents\Projetos\workbench\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

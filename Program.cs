@@ -1,6 +1,6 @@
 ﻿using System.CommandLine;
 using System.Reflection;
-using workbench.Commands.FakeCommand;
+using workbench.Commands.GenerateCommand;
 
 namespace Workbench
 {
@@ -8,7 +8,7 @@ namespace Workbench
     {
         public static void Main(string[] args)
         {
-            RootCommand rootCommand = new("A tool to do the boring work");
+            RootCommand rootCommand = new("A tool to help with simple jobs");
             ConfigureRootCommand(rootCommand);
         
             rootCommand.Invoke(args);
@@ -23,7 +23,7 @@ namespace Workbench
 
         private static void AddCommands(RootCommand rootCommand)
         {
-            rootCommand.Add(FakeCommandBuilder.GetCommand());
+            rootCommand.AddCommand(GenerateCommandBuilder.GetCommand());
         }
 
         private static void SetRootHandler(RootCommand rootCommand)
@@ -39,9 +39,8 @@ namespace Workbench
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
 
                 Console.WriteLine("\n\nWorkbanch Tool - version 1.0.0");
-                Console.ForegroundColor = ConsoleColor.White;
 
-                rootCommand.
+                Console.WriteLine("\nType -h, -? or --help to start.");
             });
         }
     }

@@ -49,9 +49,17 @@
               "target": "Package",
               "version": "[34.0.2, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.26.0, )"
+            },
             "System.CommandLine": {
               "target": "Package",
               "version": "[2.0.0-beta4.22272.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.26.0, )"
             }
           },
           "imports": [
