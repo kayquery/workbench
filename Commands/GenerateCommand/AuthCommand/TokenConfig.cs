@@ -16,14 +16,14 @@ namespace workbench.Commands.GenerateCommand.AuthCommand
         {
             if(environment == EEnvironment.Hml)
             {
-                Secret = "8ue4iwNl3oc8u0gvBGPPq5obtcq5xV8Vxkgp";
-                Issuer = "PrivacyHom";
+                Secret = "SECRET-HML";
+                Issuer = "ISSUER-HML";
                 ExpirerHour = 72;
             }
             else
             {
-                Secret = "8dcb743a98d0482e8f2aa78ca128e986e63f498ebf2f4ff8";
-                Issuer = "PrivacyDev";
+                Secret = "SECRET-DEV";
+                Issuer = "ISSUER-DEV";
                 ExpirerHour = 72;
             }
         }
