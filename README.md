@@ -2,7 +2,7 @@
 
 ## A CLI to automate some simple tasks
 
-This CLI use the new library CommandLine from Microsoft, you can see the documentation here: https://learn.microsoft.com/en-us/dotnet/standard/commandline/
+This CLI uses the new library CommandLine from Microsoft, you can see the documentation here: https://learn.microsoft.com/en-us/dotnet/standard/commandline/
 
 ## Commands
 
