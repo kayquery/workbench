@@ -38,7 +38,7 @@ namespace Workbench
                 Console.WriteLine("  \\/  \\/ \\___/|_|  |_|\\_\\_.__/ \\___|_| |_|\\___|_| |_|");
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
 
-                Console.WriteLine("\n\nWorkbanch Tool - version 1.0.0");
+                Console.WriteLine("\n\nWorkbench Tool - version 1.0.0");
 
                 Console.WriteLine("\nType -h, -? or --help to start.");
             });
